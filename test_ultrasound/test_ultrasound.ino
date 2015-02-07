@@ -12,7 +12,7 @@
    
    e-mail: matt (AT) faraday (dot) at 
    
- Based on ultrasonic ping example from arduino.cc and Copyleft 2007 Jason Ch.
+ Based on ultrasonic ping example from arduino.cc (Copyleft 2007 Jason Ch.)
  
  */
 // 
@@ -34,7 +34,6 @@ TM1637Display display(CLK, DIO);
 void setup() {
   display.setBrightness(0x0f);
   pinMode(BUZZ, OUTPUT);
-  Serial.begin(115200); 
 }
 
 void loop() {
